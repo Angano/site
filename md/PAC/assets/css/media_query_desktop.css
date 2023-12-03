@@ -1,0 +1,25 @@
+@media screen and (max-width:500px) {
+    #menu-aside{
+        width: 0%;
+    }
+
+    #style-content{
+        width: 100%;
+    }
+    #btn-menu{
+        display: block;
+    }
+
+}
+@media screen and (min-width:501px) {
+    #menu-aside{
+        width: 20%;
+    }
+
+    #style-content{
+        width: 80%;
+    }
+    #btn-menu{
+        display: none;
+    }
+}

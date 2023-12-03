@@ -1,0 +1,61 @@
+/*
+Breakpoint 	Class infix 	Dimensions
+Extra small 	None 	<576px
+Small 	sm 	≥576px
+Medium 	md 	≥768px
+Large 	lg 	≥992px
+Extra large 	xl 	≥1200px
+Extra extra large 	xxl 	≥1400px
+*/
+
+/*
+Résolution / densité 	                        Diagonale 	                                Catégorie de prix
+480x800 et 480x854 px (WVGA) 160 ou 240 dpi 	3,5 - 4 pouces 	    Installé sur des modèles d'entrée de gamme à faible coût
+540x960 px (qHD), 160 240 ou 320 dpi 	        4,5 - 4,8 pouces 	Utilisé sur les modèles de niveau budgétaire
+720x1280 px (HD), 240 ou 320 dpi 	            4,8 à 5,5 pouces 	Le segment de prix moyen des modèles
+1080x1920 - (Full-HD), 320, 480 ou 640 dpi 	    4,8 à 7 pouces 	    Segment modèle phare
+1440x2560 px. (QuadHD) 480 ou 640 dpi 	        5-7 pouces 	        Nouveau, mais rare dans les smartphones 2018 avec un écran au format 4
+
+*/
+
+@media screen and (max-width:576px) {
+    h1{
+        font-size: 3rem;
+    }
+    h5{
+        font-size:1.7rem;
+    }
+    p,h6{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:567px) and (max-width:768px) {
+    h1{
+        font-size: 3.5rem;
+    }
+
+    h5{
+        font-size:2.1rem;
+    }
+    p,h6{
+        font-size: 1.4rem;
+    }
+}
+    @media screen and (min-width:769px) and (max-width:992) {
+        h1{
+            font-size: 4.3rem;
+        }
+    
+        h5{
+            font-size:2.9rem;
+        }
+        h6{
+            font-size:2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+}
+

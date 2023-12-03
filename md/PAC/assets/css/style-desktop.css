@@ -1,0 +1,258 @@
+@font-face{
+    font-family: flaticon;
+    src: url("../fonts/flaticon/font/Flaticon.ttf") format("truetype");
+}  
+
+@font-face {
+    font-family: "Okay BQ Regular";
+    src: url("../fonts/okay/Okay_BQ_Regular.otf") format("opentype");
+   }
+   
+@font-face{
+    font-family: "Helvetica";
+    src: url("../fonts/helvetica/Helvetica.ttf") format("truetype");
+}   
+@font-face{
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+*{
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+h1,h2,h3,h4{
+    font-family: Okay BQ Regular;
+}
+
+h5,h6,p{
+    font-family: Helvetica;
+}
+
+#societe_nom{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight:700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+p,.coordonnees{
+    font-family: "Quicksand";
+    line-height: 1.42;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.nav-link.active{
+    color:#FFC300;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color:#FFC300 ;
+    
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    padding: 0.2rem;
+    
+ }
+
+.nav-link:focus, .nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color:#FFC300 ;
+    color: white;
+}
+.nav-item{
+    padding:2px;
+}
+.md-aside{
+    background-color: #0117db;
+
+}
+#style-content .row{
+    margin-bottom: 2rem;   
+
+}
+.row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.md_block{
+    height: 100vh;
+}
+.md_block-50{
+    height: 55vh;
+}
+
+#agence{
+    background-color: #FAFAFA;
+}
+#agence-block{
+    /* width: 0%; */
+}
+
+#accueil{
+    overflow: hidden;
+}
+
+small li{
+    list-style: none;
+}
+small li a{
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.btn_contact{
+    background-color: #FFC300;
+    color:white;
+    border-radius: 10px;
+}
+
+#reseau_sociaux li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact{
+    
+    margin-left:-15rem;
+    width: auto;
+}
+
+
+
+#style-content{
+    /* scroll-behavior: smooth; */
+    overflow: auto;
+    height:100%;
+}
+
+.popup{
+    padding-top: 1rem;
+    max-width: 515px;
+    width: max-content;
+    height: 190px;
+    background-color: #0117db;
+    position: absolute;
+    z-index: 500;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+.popup-1{
+    margin-bottom: 20px;
+    font-size: 44px;
+    line-height: 1.3;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.popup-2{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    color:rgba(255, 255, 255, 0.5);
+    
+}
+
+#menu-aside{
+    height:100vh;
+    overflow: hidden;
+}
+#btn-menu{
+ 
+    position:absolute;
+    top:0; 
+    z-index:99; 
+    width:5rem;
+    left:0px
+
+}
+.carousel-indicators .active[data-bs-target]{
+    border:solid 2px #FFC300;
+    background-color: transparent;
+}
+.carousel-indicators{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;    
+    
+}
+.carousel-indicators [data-bs-target]{
+border-radius: 20px;
+height: 11px; 
+width: 11px;
+border:solid 2px #FAFAFA;
+margin-left: -4%;
+margin-top: 1%;
+}
+
+aside{
+    height: 100%;
+    position: relative;
+}
+
+#legale{
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+#service {
+    margin-left: -20rem;
+    height: 63vh;
+}
+
+.icon-check{
+    height: 5px;
+    width: 5px;
+    border:1px solid #BEBEBE;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 32px;
+}
+hr{
+    display: inline-block;
+    width: 100%;
+}
+
+#textDecoration{
+    border-bottom: #FFC300 solid 4px;
+    padding-bottom: 0.5rem;
+    
+}
+
+#agence-block, pre, p{
+    font-family: Quicksand;
+}
+
+#equipe p{
+    font-size:13px;
+}
+
+#agence-block{
+    opacity: 0.4;
+    margin-left:-1rem;
+}
+
+#equipe{
+    opacity: 0.4;
+    width:70%;
+
+}

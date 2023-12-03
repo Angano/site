@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Okay BQ Regular";
+    src: url("../fonts/Okay_BQ_Regular.otf") format("opentype");
+   }
+   
+@font-face{
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.ttf") format("truetype");
+}   
+h5,h6,p{
+    font-family: Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: #005b8c6b;
+}
+#nav-menu{
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 49%;
+    width: 30%;
+
+}
+
+#nav-menu button{
+    margin-bottom: 0.3rem;
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    margin-right: -1rem;
+    
+}
+
+#nav-menu .btn-secondary{
+    background-color: #88b8ff;
+}
+
+#nav-contact{
+    overflow: hidden;
+    top:55%;
+    width:45%;
+}
+
+#nav-contact button{
+    margin-bottom: 0.3rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    margin-right: -1rem;
+}
+.nav_active{
+    background-color: #005b8c;
+    color:white;
+}
+
+#navbarSupportedContent a{
+    width: 100%;
+    right: -1rem;
+    position: relative;
+}
+
+#ambulance{
+    padding-top: 2rem;
+    background-color: #005B8CBA;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    height: 100%;
+    overflow: hidden;
+    left:6%;
+    
+    width: 15%;
+
+    position: relative;
+    color:white;
+   
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display:flex;
+  
+  align-items:center;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+h1,h2,h3,h4{
+    font-family: Okay BQ Regular;
+}
+
+h1{
+    font-size: 5.5rem;
+}
+
+
+
+#nom_societe{
+    background-color: #005B8CBA;
+    position: absolute;
+   
+    bottom: 5%;
+    width:100%;
+    overflow: hidden;
+    height: 10%;
+}
+#nom_societe h1{
+    position: relative;
+     left:15%;
+     color:white;
+  
+     height: min-content;
+     margin-top: auto;
+     margin-bottom: auto;
+}

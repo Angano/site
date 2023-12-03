@@ -1,0 +1,35 @@
+h1{
+    color:white;
+}
+a{
+    color:#FFC300;
+    
+}
+.nav-link{
+    color:#FFC300;
+    font-weight: 900;
+}
+.md-aside{
+    background-color: #0117db;
+
+}
+#style-content .row{
+    margin-bottom: 2rem;   
+    background-color: #FAFAFA;
+}
+.row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.md_block{
+    height: 100vh;
+}
+
+#agence{
+    background-color: #FAFAFA;
+}
+
+#accueil{
+    overflow: hidden;
+}
